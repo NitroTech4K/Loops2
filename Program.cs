@@ -8,12 +8,10 @@ namespace Loops2
 {
     internal class Program
     {
-        static int x;
-        static int y;
-
+        
         static bool gameOver;
 
-
+        static string typing;
 
         static void Main(string[] args)
         {
@@ -21,13 +19,10 @@ namespace Loops2
 
             while (gameOver == false)
             {
-                Console.Write(" Bababooey ");
+            
+                Console.ReadLine();
                 Console.Beep(300, 50);
                 
-            }
-
-            while (gameOver == false)
-            {
             }
 
         }
